@@ -46,7 +46,7 @@ def getRatio(price_a, price_b):
         return
     if(price_a == 0):
         return 0
-    ratio = price_a / price_b
+    ratio = price_a / price_b   #floating value
     return ratio
 
 
